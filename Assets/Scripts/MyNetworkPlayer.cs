@@ -37,12 +37,6 @@ public class MyNetworkPlayer : NetworkBehaviour
     {
         SetDisplayName(newDisplayName);
     }
-    
-    [Command]
-    private void CmdSetDisplayColor(Color newDisplayColor)
-    {
-        SetDisplayColor(newDisplayColor);
-    }
 
     #endregion
 
